@@ -27,3 +27,15 @@ console.log(booleanIsLoggedIn);
 // 0 ==> false 
 // "shalinee" => true
 // "" => true
+
+let gameCounter = 100 
+//gameCounter++ // yeh pahle value lega then increment karega // 101
+++gameCounter // yeh pahle increment karega then value lega // 101
+console.log(gameCounter)
+
+let x = 3;
+const y = x++;
+
+let a = 3;
+const b = ++a;
+console.log(a, b)
